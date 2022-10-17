@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.4-nightly.20221017](https://github.com/ionic-team/ionic/compare/v6.0.2...v6.2.4-nightly.20221017) (2022-10-17)
+
+
+### Bug Fixes
+
+* **react-router:** remove page transition flicker on outlet mounting ([#24667](https://github.com/ionic-team/ionic/issues/24667)) ([bdb5c42](https://github.com/ionic-team/ionic/commit/bdb5c421d2d1f72c123c254e50c6d31b3c1a8f42)), closes [#24666](https://github.com/ionic-team/ionic/issues/24666)
+* **react:** nested router outlets will not reanimate entered views ([#24672](https://github.com/ionic-team/ionic/issues/24672)) ([43aa6c1](https://github.com/ionic-team/ionic/commit/43aa6c11f42fd5cf455c50419d5f5fbb327b2901)), closes [#24107](https://github.com/ionic-team/ionic/issues/24107)
+* **react:** outlet will not clear in react 18 with hot reload ([#25703](https://github.com/ionic-team/ionic/issues/25703)) ([3878bf7](https://github.com/ionic-team/ionic/commit/3878bf76523f2e1c26c147473fd7c07ee4d0e820)), closes [#25507](https://github.com/ionic-team/ionic/issues/25507)
+* **react:** swipe to go back gesture works on ios ([#25563](https://github.com/ionic-team/ionic/issues/25563)) ([7ec3683](https://github.com/ionic-team/ionic/commit/7ec3683e94e5397022560ce8489532ff40d3f40c)), closes [#22342](https://github.com/ionic-team/ionic/issues/22342)
+
+
+
+
+
 ## [6.2.3](https://github.com/ionic-team/ionic/compare/v6.2.2...v6.2.3) (2022-08-17)
 
 **Note:** Version bump only for package @ionic/react-router
