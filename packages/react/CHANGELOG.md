@@ -3,6 +3,45 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.4-nightly.20230421](https://github.com/ionic-team/ionic/compare/v6.0.2...v6.2.4-nightly.20230421) (2023-04-21)
+
+
+### Bug Fixes
+
+* **all:** improve compatibility with vite ([#25381](https://github.com/ionic-team/ionic/issues/25381)) ([d83bcd2](https://github.com/ionic-team/ionic/commit/d83bcd2b7f9937550008f995ff91517777584373)), closes [#23823](https://github.com/ionic-team/ionic/issues/23823)
+* **angular, react,  vue:** overlays no longer throw errors when used inside tests ([#24681](https://github.com/ionic-team/ionic/issues/24681)) ([897ae4a](https://github.com/ionic-team/ionic/commit/897ae4a4546ac0dd811125d5513ef23d133a1589)), closes [#24549](https://github.com/ionic-team/ionic/issues/24549) [#24590](https://github.com/ionic-team/ionic/issues/24590)
+* **range:** interfaces are now correctly exported ([#25342](https://github.com/ionic-team/ionic/issues/25342)) ([15f0c06](https://github.com/ionic-team/ionic/commit/15f0c0669f7598386edf487f408462b90ed91a08)), closes [#25341](https://github.com/ionic-team/ionic/issues/25341)
+* **react-router:** remove page transition flicker on outlet mounting ([#24667](https://github.com/ionic-team/ionic/issues/24667)) ([bdb5c42](https://github.com/ionic-team/ionic/commit/bdb5c421d2d1f72c123c254e50c6d31b3c1a8f42)), closes [#24666](https://github.com/ionic-team/ionic/issues/24666)
+* **react:** add param types to useIonPopover dismiss function ([#25311](https://github.com/ionic-team/ionic/issues/25311)) ([7111370](https://github.com/ionic-team/ionic/commit/7111370dd787fdec78a1e3368679bc4c73570b98))
+* **react:** add useRef wrapper to useIonOverlay state to avoid stale references ([#24553](https://github.com/ionic-team/ionic/issues/24553)) ([bce849c](https://github.com/ionic-team/ionic/commit/bce849c5f324522002eff7f8a5e5023150e9201c))
+* **react:** IonNav apply properties to page components  ([#25603](https://github.com/ionic-team/ionic/issues/25603)) ([61e4ffe](https://github.com/ionic-team/ionic/commit/61e4ffe47f73034808b65ee37342f540ee5a6a97)), closes [#25602](https://github.com/ionic-team/ionic/issues/25602)
+* **react:** IonNav works with react ([#25565](https://github.com/ionic-team/ionic/issues/25565)) ([420f9bb](https://github.com/ionic-team/ionic/commit/420f9bbebd41f3eab6def795bcdd1933d5c5a47a)), closes [#24002](https://github.com/ionic-team/ionic/issues/24002)
+* **react:** IonTabButton will call custom onClick handlers ([#25313](https://github.com/ionic-team/ionic/issues/25313)) ([6034418](https://github.com/ionic-team/ionic/commit/6034418b33c32fdd682c470eaf61b9fcbe86c4bb)), closes [#22511](https://github.com/ionic-team/ionic/issues/22511)
+* **react:** nested router outlets will not reanimate entered views ([#24672](https://github.com/ionic-team/ionic/issues/24672)) ([43aa6c1](https://github.com/ionic-team/ionic/commit/43aa6c11f42fd5cf455c50419d5f5fbb327b2901)), closes [#24107](https://github.com/ionic-team/ionic/issues/24107)
+* **react:** outlet will not clear in react 18 with hot reload ([#25703](https://github.com/ionic-team/ionic/issues/25703)) ([3878bf7](https://github.com/ionic-team/ionic/commit/3878bf76523f2e1c26c147473fd7c07ee4d0e820)), closes [#25507](https://github.com/ionic-team/ionic/issues/25507)
+* **react:** present controller overlays in React 18 ([#25361](https://github.com/ionic-team/ionic/issues/25361)) ([01c40ea](https://github.com/ionic-team/ionic/commit/01c40eae5509f1c150d79269a7a75c05112fa343)), closes [#25247](https://github.com/ionic-team/ionic/issues/25247)
+* **react:** prevent errors when dismissing inline popover after containing element is removed ([#24569](https://github.com/ionic-team/ionic/issues/24569)) ([c8a392a](https://github.com/ionic-team/ionic/commit/c8a392aef5fbf25f59a573897d970c41abac04d2))
+* **react:** setupIonicReact no longer crashes in SSR environment ([#24604](https://github.com/ionic-team/ionic/issues/24604)) ([360643d](https://github.com/ionic-team/ionic/commit/360643d96a03b345c83b88c9ff06e9aa254dee81))
+* **react:** swipe to go back gesture works on ios ([#25563](https://github.com/ionic-team/ionic/issues/25563)) ([7ec3683](https://github.com/ionic-team/ionic/commit/7ec3683e94e5397022560ce8489532ff40d3f40c)), closes [#22342](https://github.com/ionic-team/ionic/issues/22342)
+* **react:** treeshake ionic/core bundle ([#24989](https://github.com/ionic-team/ionic/issues/24989)) ([a296ca8](https://github.com/ionic-team/ionic/commit/a296ca875c18ec01bfc57972571e95a6d79f5678)), closes [#24497](https://github.com/ionic-team/ionic/issues/24497)
+* **react:** useIonModal/useIonPopover dismiss accepts data and role ([#25209](https://github.com/ionic-team/ionic/issues/25209)) ([68b2f8b](https://github.com/ionic-team/ionic/commit/68b2f8bfe10946580b996e48c4ec1e2df94b8d49)), closes [#25208](https://github.com/ionic-team/ionic/issues/25208)
+* **vue:** canDismiss definition is now exposed ([#25195](https://github.com/ionic-team/ionic/issues/25195)) ([e5e0e24](https://github.com/ionic-team/ionic/commit/e5e0e24f76c15c1a49f759b1a140e337f5393edd))
+
+
+### Features
+
+* **angular, react, vue:** add support for autoMountComponent ([#25552](https://github.com/ionic-team/ionic/issues/25552)) ([805dfa0](https://github.com/ionic-team/ionic/commit/805dfa05663098ef9c02b0745a383b5e7555908b))
+* **datetime-button:** add button for displaying datetime in overlays ([#25655](https://github.com/ionic-team/ionic/issues/25655)) ([4997331](https://github.com/ionic-team/ionic/commit/499733105e4be23405e8afeeb26fee5cd2afc25b)), closes [#24316](https://github.com/ionic-team/ionic/issues/24316)
+
+
+### Performance Improvements
+
+* **various:** don't use lazy-loaded icon names in components ([#24671](https://github.com/ionic-team/ionic/issues/24671)) ([484de50](https://github.com/ionic-team/ionic/commit/484de5074de212dffb4bf4f73bade7acec103fe8))
+
+
+
+
+
 ## [6.2.3](https://github.com/ionic-team/ionic/compare/v6.2.2...v6.2.3) (2022-08-17)
 
 **Note:** Version bump only for package @ionic/react
