@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.4-nightly.20230512](https://github.com/ionic-team/ionic/compare/v6.0.2...v6.2.4-nightly.20230512) (2023-05-12)
+
+
+### Bug Fixes
+
+* **accordion:** accordions expand when using binding ([#25322](https://github.com/ionic-team/ionic/issues/25322)) ([61e571e](https://github.com/ionic-team/ionic/commit/61e571e585ed8ad9b0ca2f98f57bb16616413ba6)), closes [#25307](https://github.com/ionic-team/ionic/issues/25307)
+* **angular:** add support for Angular 14 ([#25403](https://github.com/ionic-team/ionic/issues/25403)) ([122cdcc](https://github.com/ionic-team/ionic/commit/122cdcc8253e46d9537105b11045fd7d9ccd8917)), closes [#25353](https://github.com/ionic-team/ionic/issues/25353)
+* **angular:** apply touch, dirty and pristine form control classes ([#24558](https://github.com/ionic-team/ionic/issues/24558)) ([273ae2c](https://github.com/ionic-team/ionic/commit/273ae2cc087b2a5a30fb50a1b0eaeb0a221900fc)), closes [#24483](https://github.com/ionic-team/ionic/issues/24483)
+* **angular:** button components now route correctly without reload ([#25071](https://github.com/ionic-team/ionic/issues/25071)) ([1c26e9b](https://github.com/ionic-team/ionic/commit/1c26e9b9b0fc45a8691e972fe17a168f89a27a79))
+* **angular:** DatetimeButton is declared on IonicModule ([#25727](https://github.com/ionic-team/ionic/issues/25727)) ([76ad1d1](https://github.com/ionic-team/ionic/commit/76ad1d18c81272435db1994977aa9dd5d880504a))
+* **angular:** inline modals now add .ion-page class correctly ([#24751](https://github.com/ionic-team/ionic/issues/24751)) ([ef46eaf](https://github.com/ionic-team/ionic/commit/ef46eafc9476a85ea3369e542f528d01d3cca0a8)), closes [#24750](https://github.com/ionic-team/ionic/issues/24750)
+* **angular:** item styling when control has value ([#24932](https://github.com/ionic-team/ionic/issues/24932)) ([eea25d0](https://github.com/ionic-team/ionic/commit/eea25d091d7eb319d6ec1de8b793881d3a10949b)), closes [#23809](https://github.com/ionic-team/ionic/issues/23809)
+* **angular:** ngOnDestroy runs inside angular zone ([#24949](https://github.com/ionic-team/ionic/issues/24949)) ([a8fd2d9](https://github.com/ionic-team/ionic/commit/a8fd2d9199ca92d62bce6abf8caccc7709fa5ca1)), closes [#22571](https://github.com/ionic-team/ionic/issues/22571)
+* **angular:** router compatibility with Angular 12/13 ([#25456](https://github.com/ionic-team/ionic/issues/25456)) ([7b105a3](https://github.com/ionic-team/ionic/commit/7b105a3471e5bc588ba63f820b707e131c878b6f)), closes [#25448](https://github.com/ionic-team/ionic/issues/25448)
+* **angular:** routerLink allows opening in a new tab for link elements ([#25014](https://github.com/ionic-team/ionic/issues/25014)) ([b010f07](https://github.com/ionic-team/ionic/commit/b010f077fe51992dd9dd8ced69769a8eb91ac055)), closes [#24413](https://github.com/ionic-team/ionic/issues/24413)
+* **angular:** routerLink with null value works with Angular 13 ([#24622](https://github.com/ionic-team/ionic/issues/24622)) ([90a9a9c](https://github.com/ionic-team/ionic/commit/90a9a9c3e813c8db0a9d6b3b25c152929bea80fe)), closes [#24586](https://github.com/ionic-team/ionic/issues/24586)
+* **angular:** warn devs that standalone components are not supported ([#25516](https://github.com/ionic-team/ionic/issues/25516)) ([c53785c](https://github.com/ionic-team/ionic/commit/c53785c0c786113f3516c09fa512687ecb84c717))
+* **modal:** .ion-page element is now correctly added ([#24811](https://github.com/ionic-team/ionic/issues/24811)) ([3d0f999](https://github.com/ionic-team/ionic/commit/3d0f99904fe192fcb5f529780858a0f25f076af7)), closes [#24809](https://github.com/ionic-team/ionic/issues/24809)
+* **modal:** add canDismiss input binding for angular ([#25240](https://github.com/ionic-team/ionic/issues/25240)) ([bdf0383](https://github.com/ionic-team/ionic/commit/bdf0383b0c9ec4595129a2633760fd4f4788df90)), closes [#25239](https://github.com/ionic-team/ionic/issues/25239)
+* **range:** interfaces are now correctly exported ([#25342](https://github.com/ionic-team/ionic/issues/25342)) ([15f0c06](https://github.com/ionic-team/ionic/commit/15f0c0669f7598386edf487f408462b90ed91a08)), closes [#25341](https://github.com/ionic-team/ionic/issues/25341)
+* **tabs:** angular, fire willChange event before selected tab changes ([#24910](https://github.com/ionic-team/ionic/issues/24910)) ([d5efa11](https://github.com/ionic-team/ionic/commit/d5efa113317eaf874712134dc9b8e4502aa4760f))
+* **vue:** canDismiss definition is now exposed ([#25195](https://github.com/ionic-team/ionic/issues/25195)) ([e5e0e24](https://github.com/ionic-team/ionic/commit/e5e0e24f76c15c1a49f759b1a140e337f5393edd))
+
+
+### Features
+
+* **angular, react, vue:** add support for autoMountComponent ([#25552](https://github.com/ionic-team/ionic/issues/25552)) ([805dfa0](https://github.com/ionic-team/ionic/commit/805dfa05663098ef9c02b0745a383b5e7555908b))
+* **datetime-button:** add button for displaying datetime in overlays ([#25655](https://github.com/ionic-team/ionic/issues/25655)) ([4997331](https://github.com/ionic-team/ionic/commit/499733105e4be23405e8afeeb26fee5cd2afc25b)), closes [#24316](https://github.com/ionic-team/ionic/issues/24316)
+* **datetime:** add multiple date selection ([#25514](https://github.com/ionic-team/ionic/issues/25514)) ([9d31608](https://github.com/ionic-team/ionic/commit/9d31608f2d471f531eb253832c8558d1effaf68a))
+* **datetime:** add wheel style picker for dates and times ([#25468](https://github.com/ionic-team/ionic/issues/25468)) ([3d19771](https://github.com/ionic-team/ionic/commit/3d19771185301870a2eb60f1ef4afd6f1c182494))
+* **datetime:** isDateEnabled to enable/disable specific days  ([#24898](https://github.com/ionic-team/ionic/issues/24898)) ([e932a04](https://github.com/ionic-team/ionic/commit/e932a042237e6f44bf278bcbd895d8569fc17348)), closes [#24209](https://github.com/ionic-team/ionic/issues/24209)
+* **item:** counter formatter to customize counter text display ([#24336](https://github.com/ionic-team/ionic/issues/24336)) ([171020e](https://github.com/ionic-team/ionic/commit/171020e9d200ccfdef0f01c427b295bb50dd1fef)), closes [#24327](https://github.com/ionic-team/ionic/issues/24327)
+* **modal:** ability to programmatically set current sheet breakpoint ([#24648](https://github.com/ionic-team/ionic/issues/24648)) ([3145c76](https://github.com/ionic-team/ionic/commit/3145c76934ac711038f9dcba98a385dfbe754953)), closes [#23917](https://github.com/ionic-team/ionic/issues/23917)
+* **modal:** clicking handle advances to the next breakpoint ([#25540](https://github.com/ionic-team/ionic/issues/25540)) ([7cdc388](https://github.com/ionic-team/ionic/commit/7cdc388b7805cbf23c9e1e928aa977cd77ebc8c4)), closes [#24069](https://github.com/ionic-team/ionic/issues/24069)
+* **range:** add knobMoveStart and knobMoveEnd events ([#25011](https://github.com/ionic-team/ionic/issues/25011)) ([f5cb1f8](https://github.com/ionic-team/ionic/commit/f5cb1f8444ba050042e788f9f9ec7b6309bf1b60))
+* **range:** add reference point for start position of range slider ([#25598](https://github.com/ionic-team/ionic/issues/25598)) ([c2781cc](https://github.com/ionic-team/ionic/commit/c2781cc1c3b7e56a0e6f6c03cfa04fc2c82d6e8a)), closes [#24348](https://github.com/ionic-team/ionic/issues/24348)
+* **select:** add event for when overlay is dismissed ([#24400](https://github.com/ionic-team/ionic/issues/24400)) ([b835b7c](https://github.com/ionic-team/ionic/commit/b835b7c0c7840f41c54f96743cc0a779ff474ab6))
+
+
+
+
+
 ## [6.2.3](https://github.com/ionic-team/ionic/compare/v6.2.2...v6.2.3) (2022-08-17)
 
 **Note:** Version bump only for package @ionic/angular
